@@ -17,7 +17,7 @@ routesGenerator := InjectedRoutesGenerator
 
 // Application packaging
 enablePlugins(DebianPlugin)
-maintainer := “Sameh <sameh@nilogix.com>“
+maintainer := "Sameh <sameh@nilogix.com>"
 packageSummary := "example-app package"
 packageDescription := "example-app package description"
 
