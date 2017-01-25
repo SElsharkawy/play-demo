@@ -11,3 +11,13 @@ libraryDependencies ++= Seq(
   cache,
   javaWs
 )
+
+// Play router style
+routesGenerator := InjectedRoutesGenerator
+
+// Application packaging
+enablePlugins(DebianPlugin)
+maintainer := “Sameh <sameh@nilogix.com>“
+packageSummary := "example-app package"
+packageDescription := "example-app package description"
+
